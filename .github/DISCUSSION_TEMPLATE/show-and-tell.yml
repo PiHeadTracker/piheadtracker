@@ -1,0 +1,15 @@
+title: "[Setup] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show your setup: your headset, your cockpit or a short clip from a game.
+        Düzeneğinizi gösterin: kulaklığınız, kokpitiniz ya da oyundan kısa bir video.
+  - type: textarea
+    id: details
+    attributes:
+      label: Your setup / Düzeneğiniz
+      description: Photos or videos can be dragged into this box. / Fotoğraf ya da videoyu bu kutuya sürükleyebilirsiniz.
+    validations:
+      required: true

@@ -1,0 +1,29 @@
+title: "[Help] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before posting, try the Support Assistant in the app. It checks the connection, sensor and game and shows the steps to fix most problems.
+        Yazmadan önce uygulamadaki Destek Asistanı'nı deneyin. Bağlantıyı, sensörü ve oyunu kontrol eder, çoğu sorunda çözüm adımlarını gösterir.
+
+        Please don't post your support report here; it contains details about your computer. Send it to destek@piheadtracker.com instead.
+        Destek raporunu buraya yapıştırmayın, bilgisayarınızla ilgili ayrıntılar içerir. Raporu destek@piheadtracker.com adresine gönderin.
+  - type: input
+    id: version
+    attributes:
+      label: App version / Uygulama sürümü
+      placeholder: "2.0.1"
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game, if relevant / İlgiliyse oyun
+  - type: textarea
+    id: details
+    attributes:
+      label: What happens / Ne oluyor
+      description: What did you do, what did you expect and what happened instead? / Ne yaptınız, ne bekliyordunuz, ne oldu?
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions / Tartışmalar
+    url: https://github.com/PiHeadTracker/piheadtracker/discussions
+    about: Feedback, questions and announcements. Görüş, soru ve duyurular.
+  - name: Support / Destek
+    url: https://piheadtracker.com/en/support
+    about: Troubleshooting and the support form. Sorun giderme ve destek formu.

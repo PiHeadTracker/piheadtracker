@@ -1,0 +1,26 @@
+title: "[Feedback] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to write. Ideas about the app or the device are welcome here.
+        Yazdığınız için teşekkürler. Uygulama ya da cihazla ilgili fikirlerinizi burada paylaşabilirsiniz.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Konu
+      options:
+        - App / Uygulama
+        - Device / Cihaz
+        - Website or guide / Site ya da kılavuz
+        - Other / Diğer
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Your feedback / Görüşünüz
+      description: What would you like to change, and how would it help you? / Neyin değişmesini istersiniz, size nasıl yardımcı olur?
+    validations:
+      required: true
